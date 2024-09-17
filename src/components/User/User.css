@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: rgb(244, 236, 226);
+font-family: sans-serif;
+}
+.user-card{
+    border: 2px solid gray;
+    padding: 15px;
+    /* margin-top: 20px; */
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.user-card:hover {
+    transform: scale(0.9);
+}
+.user-card img {
+    /* margin-left: 10px; */
+    /* padding-top: 20px; */
+    margin-left: -15px;
+    /* margin-top: -20px; */
+    margin-top: -15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.email{
+display: flex;
+flex-wrap:nowrap;
+justify-content: start;
+text-decoration: none;
+color:blue;
+
+/* padding-left: 10px; */
+}
+.tell{
+color:red;
+}
